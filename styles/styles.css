@@ -15,6 +15,7 @@
     /* filter: contrast(80%); */
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 15px;
     margin: 0px auto;
     margin-top: 50px;
     margin-bottom: 140px;
@@ -113,6 +114,7 @@ hgroup .section01-h2{
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 15px;
     margin: 0px auto;
     margin-top: 140px;
     margin-bottom: 140px;
@@ -174,6 +176,7 @@ hgroup .section01-h2{
     justify-content: center;
     width: 1320px;
     height: 482px;
+    border-radius: 15px;
     margin: 0px auto;
     margin-bottom: 140px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -257,7 +260,7 @@ span{
     text-transform: capitalize;
 }
 .section04-p{
-    color: rgba(7, 2, 17, 0.60);
+    color: #07021199;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -308,3 +311,100 @@ span{
 }
 
 /* styels for section 05 */
+
+
+/* styles for section 06 */
+.section06{
+    display: flex;
+    flex-direction: column;
+    width: 1320px;
+    /* height: 600px; */
+    margin: 0px auto;
+    margin-bottom: 140px;
+
+}
+.section06-text{
+    display: flex;
+    flex-direction: column;
+}
+.section06-text h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+.section06-text h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.section06-text p{
+    display: inline-block;
+    width: 896px;
+    color: #07021199;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+.section06-img-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 24px;
+
+}
+.section06-img-subcontainer01{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.img01{
+    background-image: url('../images/Rectangle\ 3.png');
+    width: 424px;
+    height: 450px;
+
+}
+.img02{
+    background-image: url('../images/Rectangle\ 4.png');
+    width: 424px;
+    height: 450px;
+}
+.img03{
+    background-image: url('../images/Rectangle\ 5.png');
+    width: 424px;
+    height: 450px;
+}
+.section06-img-subcontainer02{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.img04{
+    background-image: url('../images/Rectangle\ 6.png');
+    width: 424px;
+    height: 450px;
+}
+.img05{
+    background-image: url('../images/Rectangle\ 7.png');
+    width: 424px;
+    height: 450px;
+}
+.img06{
+    background-image: url('../images/Rectangle\ 8.png');
+    width: 424px;
+    height: 450px;
+}
