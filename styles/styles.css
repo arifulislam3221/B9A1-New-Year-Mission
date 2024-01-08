@@ -51,14 +51,21 @@ hgroup .banner-h1{
     font-weight: 900;
     line-height: 95px; /* 131.944% */
 }
+
+/* styles for main section */
+
+/* styles for section 01 */
 .section01{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 .section01:hover{
     border: 1px solid rgb(44, 147, 243);
+    margin: 0px auto;
+    margin-bottom: 140px;
 }
 
 section .section01-image img{
@@ -92,4 +99,66 @@ hgroup .section01-h2{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+/* STYLES FOR SECTION 02 */
+
+.section02{
+    display: flex;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.section02{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.section02-text{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 126px;
+}
+.section02-h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.section02-p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.section02-join-now{
+    width: 203px;
+    /* height: 24px;  */
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section02-floting-image img{
+    width: 319.84002px;
+    height: 464.66168px;
 }
