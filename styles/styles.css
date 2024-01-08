@@ -17,6 +17,7 @@
     background-size: cover;
     margin: 0px auto;
     margin-top: 50px;
+    margin-bottom: 140px;
 }
 /* styles for h tags */
 hgroup{
@@ -39,7 +40,7 @@ hgroup .h3-title{
     font-weight: 400;
     line-height: normal;
 }
-hgroup h1{
+hgroup .banner-h1{
     width: 632px;
     height: 190px;
     color: #FFF;
@@ -52,8 +53,43 @@ hgroup h1{
 }
 .section01{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section01:hover{
+    border: 1px solid rgb(44, 147, 243);
 }
 
 section .section01-image img{
-
+    width: 802.9px;
+    height: 500px;
+}
+hgroup .section01-h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+hgroup .section01-h6{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+hgroup .section01-h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
