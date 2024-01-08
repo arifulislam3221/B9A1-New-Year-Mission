@@ -60,15 +60,18 @@ hgroup .banner-h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-}
-.section01:hover{
-    border: 1px solid rgb(44, 147, 243);
+    width: 1320px;
+    height: 600px;
     margin: 0px auto;
     margin-bottom: 140px;
+    
 }
+/* .section01:hover{
+    border: 1px solid rgb(44, 147, 243);
+    
+} */
 
-section .section01-image img{
+.section01-img{
     width: 802.9px;
     height: 500px;
 }
