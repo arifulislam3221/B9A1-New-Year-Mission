@@ -11,7 +11,7 @@
     /* border: 20px solid red; */
     width: 1320px;
     height: 600px;
-    background-image: linear-gradient(0deg, #36310533, rgba(0, 0, 0, 0.973)) , url('../images/Banner\ Image.png');
+    background-image: linear-gradient(0deg, #36310533, rgba(0, 0, 0, 0.973)) , url('../images/Banner Image.png');
     /* filter: contrast(80%); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,5 +219,92 @@ span{
     border: none; 
     margin-top: 48px;
   }
+  /* styles for section 04 */
+.section04{
+    display: flex;
+    flex-direction: row;
+    gap: 100PX;
+    width: 1320px;
+    height: 482px;
+    margin: 0px auto;
+    margin-bottom: 140px;
+}
 
-  
+.section04-div01{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    justify-content: center;
+}
+.section04-h3{
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 11px;
+}
+.section04-h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.section04-p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+}
+
+.section04-images{ 
+    width: 463px;
+    height: 463px;
+    border-radius: 9px;
+    border: 15px solid #F00;
+}
+.section04-img{
+    border: 15px solid #f00;
+    border-radius: 300px;
+    padding: 49.08px;
+}
+.section04-div03{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.section04-div03 h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.section04-div03 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.section04-div03 img{
+    width: 140px;
+    height: 140px;
+    margin-top: 36px;
+    margin-right: 136px;
+}
+
+/* styels for section 05 */
