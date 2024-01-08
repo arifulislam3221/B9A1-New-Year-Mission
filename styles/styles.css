@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* styles for banner */
+.banner{
+    display: flex;
+    /* border: 20px solid red; */
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(0deg, #36310533, rgba(0, 0, 0, 0.973)) , url('../images/Banner\ Image.png');
+    /* filter: contrast(80%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+/* styles for h tags */
+hgroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 320px; */
+    margin: 0px auto;
+    /* margin-top: 283px; */
+}
+hgroup .h3-title{
+    width: 259px;
+    height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+hgroup h1{
+    width: 632px;
+    height: 190px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+}
+.section01{
+    display: flex;
+}
+
+section .section01-image img{
+
+}
