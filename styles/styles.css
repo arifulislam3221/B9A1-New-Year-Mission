@@ -17,7 +17,7 @@
     background-size: cover;
     border-radius: 15px;
     margin: 0px auto;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 140px;
 }
 /* styles for h tags */
@@ -62,7 +62,7 @@ hgroup .banner-h1{
     align-items: center;
     justify-content: center;
     width: 1320px;
-    height: 600px;
+    height: 700px;
     margin: 0px auto;
     margin-bottom: 140px;
     
@@ -71,11 +71,19 @@ hgroup .banner-h1{
     border: 1px solid rgb(44, 147, 243);
     
 } */
-
-.section01-img{
+.section01-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/New_Year.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 802.9px;
-    height: 500px;
+    height: 600px;
 }
+/* .section01-imgge{
+    
+} */
 hgroup .section01-h1{
     color: #F00;
     text-align: center;
@@ -84,7 +92,7 @@ hgroup .section01-h1{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 48px;
+    margin-bottom: 22px;
 }
 hgroup .section01-h6{
     color: #F00;
@@ -113,10 +121,11 @@ hgroup .section01-h2{
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
+    background-size: cover;background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
     margin: 0px auto;
-    margin-top: 140px;
+    /* margin-top: 140px; */
     margin-bottom: 140px;
 }
 .section02{
@@ -130,7 +139,7 @@ hgroup .section01-h2{
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
-    padding: 126px;
+    padding: 80px;
 }
 .section02-h1{
     color: #FFF;
@@ -163,9 +172,13 @@ hgroup .section01-h2{
     line-height: normal;
     text-transform: uppercase;
 }
-.section02-floting-image img{
+.section02-floting-image{
+    background-image: url('../images/Group 70.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 319.84002px;
     height: 464.66168px;
+    padding-right: 60px;
 }
 
 /* STYLES FOR SECTION 03 */
@@ -260,6 +273,7 @@ span{
     text-transform: capitalize;
 }
 .section04-p{
+    width: 393px;
     color: #07021199;
     font-family: Inter;
     font-size: 20px;
@@ -269,15 +283,20 @@ span{
     margin-top: 22px;
 }
 
-.section04-images{ 
-    width: 463px;
-    height: 463px;
-    border-radius: 9px;
-    border: 15px solid #F00;
+.section04-image{ 
+    background-image: url('../images/Ellipse 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 364.844px;
+    height: 364.844px;
+    /* border-radius: 9px;
+    border: 15px solid #F00; */
 }
-.section04-img{
+    .section04-border{
+    width: 364.844px;
+    height: 364.844px;   
     border: 15px solid #f00;
-    border-radius: 300px;
+    border-radius: 100%;
     padding: 49.08px;
 }
 .section04-div03{
@@ -303,14 +322,25 @@ span{
     font-weight: 400;
     line-height: 32px;
 }
-.section04-div03 img{
+.happy-new-year{
+    width: 140px;
+    height: 140px;
+    background-image: url('../images/happy-new-year.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* .section04-div03 img{
     width: 140px;
     height: 140px;
     margin-top: 36px;
     margin-right: 136px;
-}
+} */
 
 /* styels for section 05 */
+
+
+/* bouns section */
 
 
 /* styles for section 06 */
