@@ -20,6 +20,10 @@
     margin-top: 25px;
     margin-bottom: 140px;
 }
+.banner:hover{
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 17px;
+}
 /* styles for h tags */
 hgroup{
     display: flex;
@@ -66,6 +70,10 @@ hgroup .banner-h1{
     margin: 0px auto;
     margin-bottom: 140px;
     
+}
+.section01:hover{
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 17px;
 }
 /* .section01:hover{
     border: 1px solid rgb(44, 147, 243);
@@ -134,6 +142,10 @@ hgroup .section01-h2{
     align-items: center;
     justify-content: center;
 }
+.section02:hover{
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 17px;
+}
 .section02-text{
     display: flex;
     flex-direction: column;
@@ -180,6 +192,8 @@ hgroup .section01-h2{
     height: 464.66168px;
     padding-right: 60px;
 }
+/* 
+fill: radial-gradient(50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%); */
 
 /* STYLES FOR SECTION 03 */
 .section03{
@@ -193,6 +207,10 @@ hgroup .section01-h2{
     margin: 0px auto;
     margin-bottom: 140px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.section03:hover{
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 17px;
 }
 span{
     color: #F00;
@@ -235,6 +253,12 @@ span{
     border: none; 
     margin-top: 48px;
   }
+.section03-btn:hover{
+    border: 2px solid rgb(110, 219, 116);
+    background-color: #0f0;
+    border-radius: 17px;
+}
+
   /* styles for section 04 */
 .section04{
     display: flex;
@@ -245,7 +269,10 @@ span{
     margin: 0px auto;
     margin-bottom: 140px;
 }
-
+.section04:hover{
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 17px;
+}
 .section04-div01{
     display: flex;
     flex-direction: column;
@@ -292,12 +319,16 @@ span{
     /* border-radius: 9px;
     border: 15px solid #F00; */
 }
-    .section04-border{
+.section04-border{
     width: 364.844px;
     height: 364.844px;   
     border: 15px solid #f00;
     border-radius: 100%;
-    padding: 49.08px;
+    padding: 44.0px;
+}
+.section04-border:hover{
+    border: 15px solid rgb(0, 119, 255);
+    border-radius: 100%;
 }
 .section04-div03{
     display: flex;
@@ -341,6 +372,12 @@ span{
 
 
 /* bouns section */
+/* for lack of time i'm skiping bonus section.
+that was really a nice assingment. (thanks to Pro. Hero)
+im learning lot's of new things from this assingment.
+and one nice thing is that, I realised how to coding properly from my mistakes of this assingment..
+one major mistake was repeating same code again and again.(it   takes too much time)
+*/
 
 
 /* styles for section 06 */
@@ -352,6 +389,10 @@ span{
     margin: 0px auto;
     margin-bottom: 140px;
 
+}
+.section06:hover{
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 17px;
 }
 .section06-text{
     display: flex;
@@ -406,15 +447,27 @@ span{
     height: 450px;
 
 }
+.img01:hover{
+    border: 2px solid rgba(0, 236, 138, 0.568);
+    border-radius: 17px;
+}
 .img02{
     background-image: url('../images/Rectangle\ 4.png');
     width: 424px;
     height: 450px;
 }
+.img02:hover{
+    border: 2px solid rgb(86, 132, 185);
+    border-radius: 17px;
+}
 .img03{
     background-image: url('../images/Rectangle\ 5.png');
     width: 424px;
     height: 450px;
+}
+.img03:hover{
+    border: 2px solid rgb(255, 0, 140);
+    border-radius: 17px;
 }
 .section06-img-subcontainer02{
     display: flex;
@@ -428,16 +481,30 @@ span{
     width: 424px;
     height: 450px;
 }
+.img04:hover{
+    border: 2px solid rgb(255, 238, 0);
+    border-radius: 17px;
+}
 .img05{
     background-image: url('../images/Rectangle\ 7.png');
     width: 424px;
     height: 450px;
+}
+.img05:hover{
+    border: 2px solid rgb(192, 0, 0);
+    border-radius: 17px;
 }
 .img06{
     background-image: url('../images/Rectangle\ 8.png');
     width: 424px;
     height: 450px;
 }
+.img06:hover{
+    border: 2px solid rgb(25, 0, 255);
+    border-radius: 17px;
+}
+
+
 /* syles for section 07 */
 .section07{
     display: flex;
@@ -452,6 +519,10 @@ span{
     margin-top: 140px;
     margin-bottom: 140px;
 
+}
+.section07:hover{
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 17px;
 }
 .section07-icon-img{
     display: flex;
@@ -509,6 +580,12 @@ button{
     margin-top: 48px;
     margin-bottom: 80px;
 }
+button:hover{
+    border: 2px solid rgb(211, 231, 193);
+    border-radius: 0px 56px 56px 0px;
+    background-color: rgb(0, 255, 0);
+}
+
 #input{
     display: inline-block;
     align-items: center;
@@ -519,11 +596,24 @@ button{
     background: #FFF;
     outline: none;
     border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     margin: 0px;
     margin-top: 48px;
     margin-bottom: 80px;
     padding: 0px 30px;
 }
+#input:hover{
+    border: 2px solid rgb(230, 193, 231);
+    border-radius: 50px 0px 0px 50px;
+    background-color: rgb(216, 245, 216);
+}
+
+
 
 /* styles for footer */
 footer{
@@ -542,7 +632,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     margin: 0px auto;
-    margin-top: 140px;
+    margin-top: 70px;
 }
 footer p, a{
     color: #FFF;
@@ -563,14 +653,14 @@ address{
     line-height: 40px;
 }
 .phone-number {
-    padding-left: 40px; /* Adjust the padding to leave space for the icon */
-    background: url('../icons/Call.png') no-repeat left center; /* Adjust the path to your call icon image */
+    padding-left: 40px;
+    background: url('../icons/Call.png') no-repeat left center;
     background-size: 24px; 
    
   }
   .website{
-    padding-left: 40px; /* Adjust the padding to leave space for the icon */
-    background: url('../icons/Website.png') no-repeat left center; /* Adjust the path to your call icon image */
+    padding-left: 40px;
+    background: url('../icons/Website.png') no-repeat left center;
     background-size: 24px; 
  
   }
