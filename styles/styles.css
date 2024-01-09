@@ -8,11 +8,9 @@
 /* styles for banner */
 .banner{
     display: flex;
-    /* border: 20px solid red; */
     width: 1320px;
     height: 600px;
     background-image: linear-gradient(0deg, #36310533, rgba(0, 0, 0, 0.973)) , url('../images/Banner Image.png');
-    /* filter: contrast(80%); */
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
@@ -30,9 +28,7 @@ hgroup{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* padding: 320px; */
     margin: 0px auto;
-    /* margin-top: 283px; */
 }
 hgroup .h3-title{
     width: 259px;
@@ -54,7 +50,7 @@ hgroup .banner-h1{
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: 95px; /* 131.944% */
+    line-height: 95px;
 }
 
 /* styles for main section */
@@ -75,10 +71,6 @@ hgroup .banner-h1{
     border: 2px solid rgb(0, 119, 255);
     border-radius: 17px;
 }
-/* .section01:hover{
-    border: 1px solid rgb(44, 147, 243);
-    
-} */
 .section01-image{
     display: flex;
     align-items: center;
@@ -89,9 +81,7 @@ hgroup .banner-h1{
     width: 802.9px;
     height: 600px;
 }
-/* .section01-imgge{
-    
-} */
+
 hgroup .section01-h1{
     color: #F00;
     text-align: center;
@@ -133,7 +123,6 @@ hgroup .section01-h2{
     background-size: cover;
     border-radius: 15px;
     margin: 0px auto;
-    /* margin-top: 140px; */
     margin-bottom: 140px;
 }
 .section02{
@@ -149,7 +138,6 @@ hgroup .section01-h2{
 .section02-text{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     padding: 80px;
 }
@@ -174,7 +162,6 @@ hgroup .section01-h2{
 }
 .section02-join-now{
     width: 203px;
-    /* height: 24px;  */
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -192,8 +179,6 @@ hgroup .section01-h2{
     height: 464.66168px;
     padding-right: 60px;
 }
-/* 
-fill: radial-gradient(50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%); */
 
 /* STYLES FOR SECTION 03 */
 .section03{
@@ -219,7 +204,7 @@ span{
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 56px; /* 175% */
+    line-height: 56px;
     text-transform: capitalize;
 }
 .section03-hgroup .section03-h2{
@@ -276,13 +261,10 @@ span{
 .section04-div01{
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
     justify-content: center;
 }
 .section04-h3{
     color: #F00;
-    /* text-align: center; */
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -316,8 +298,6 @@ span{
     background-size: cover;
     width: 364.844px;
     height: 364.844px;
-    /* border-radius: 9px;
-    border: 15px solid #F00; */
 }
 .section04-border{
     width: 364.844px;
@@ -361,12 +341,6 @@ span{
     background-size: cover;
     
 }
-/* .section04-div03 img{
-    width: 140px;
-    height: 140px;
-    margin-top: 36px;
-    margin-right: 136px;
-} */
 
 /* styels for section 05 */
 
@@ -376,7 +350,7 @@ span{
 that was really a nice assingment. (thanks to Pro. Hero)
 im learning lot's of new things from this assingment.
 and one nice thing is that, I realised how to coding properly from my mistakes of this assingment..
-one major mistake was repeating same code again and again.(it   takes too much time)
+one major mistake was repeating same code again and again.(it takes too much time)
 */
 
 
@@ -385,7 +359,6 @@ one major mistake was repeating same code again and again.(it   takes too much t
     display: flex;
     flex-direction: column;
     width: 1320px;
-    /* height: 600px; */
     margin: 0px auto;
     margin-bottom: 140px;
 
@@ -531,7 +504,6 @@ one major mistake was repeating same code again and again.(it   takes too much t
     background-image: url('../images/Group\ 61.png');
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin-top: 80px; */
 }
 .section07-text h1{
     color: #070211;
@@ -591,7 +563,6 @@ button:hover{
     align-items: center;
     width: 648px;
     height: 72px;
-    /* padding: 16px 32px; */
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     outline: none;
