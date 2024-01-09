@@ -493,5 +493,107 @@ button{
     margin-top: 48px;
     margin-bottom: 80px;
     padding: 0px 30px;
+}
 
+/* styles for footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #070211;
+    max-width:1600px;
+    height: 609px;
+    margin: 0px auto;
+}
+.footer-div{
+    width: 1320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-top: 140px;
+}
+footer p, a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+address{
+    width: 375px;
+    height: 80px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.phone-number {
+    padding-left: 40px; /* Adjust the padding to leave space for the icon */
+    background: url('../icons/Call.png') no-repeat left center; /* Adjust the path to your call icon image */
+    background-size: 24px; 
+   
+  }
+  .website{
+    padding-left: 40px; /* Adjust the padding to leave space for the icon */
+    background: url('../icons/Website.png') no-repeat left center; /* Adjust the path to your call icon image */
+    background-size: 24px; 
+ 
+  }
+.footer-img-icon{
+    width: 1320px;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    padding: 48px;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-img-icon01{
+    background-image: url('../icons/Facebook.png');
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-img-icon02{
+    background-image: url('../icons/Instagram.png');
+    width:64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-img-icon03{
+    background-image: url('../icons/Twitter.png');
+    width:64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-img-icon04{
+    background-image: url('../icons/Linkedin.png');
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.copyright{
+    width: 1320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-bottom: 140px;
+}
+a{
+    text-decoration: none;
 }
